@@ -14,6 +14,8 @@ if __name__ == '__main__':
         # print('' + val + ' ')
     # print('Skill(name="' + row + '")' + 'values= ' + temp)
     row.to_string(index=False)
+
+    print(temp)
     customObject = 'Skill(name="' + 'none' + '",description="",position=0,isEnabled=false,classname="Necromancer", levelreq="1",properties=listOf(Property(name="' + row + '",valuesByLevel="' + temp + '")),bonuses=listOf()),'
     print(row.to_string(index=False))
     f = open("demofile2.txt", "w")
